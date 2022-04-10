@@ -11,7 +11,7 @@ spring:
     import: classpath:jdbc.properties
 
 
-#spring-mvc配置
+  #spring-mvc配置
   mvc:
     view:
       prefix:
@@ -30,3 +30,11 @@ spring:
 # mapper-locations: mapper/**/*.xml
 # mybatis-plus导入配置文件
 # config-location: mybatis-config.xml
+
+
+#server:
+  #配置端口号
+  #port: 8080
+  # 配置上下文路径
+  # servlet:
+  #  context-path:
